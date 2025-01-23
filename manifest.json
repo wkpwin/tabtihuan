@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "书签URL批量替换工具",
+  "version": "1.0",
+  "description": "批量替换Chrome书签中的URL地址",
+  "permissions": ["bookmarks"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.svg",
+      "48": "icon48.svg",
+      "128": "icon128.svg"
+    }
+  },
+  "icons": {
+    "16": "icon16.svg",
+    "48": "icon48.svg", 
+    "128": "icon128.svg"
+  }
+}
